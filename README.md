@@ -1,16 +1,16 @@
-Hotel-Booking-Analysis
+# Hotel-Booking-Analysis
 
 The project contains the real world data record of hotel bookings of a city and a resort hotel containing details like bookings, cancellations, guest details etc. from 2015 to 2017. In this project we are going to analyze Hotel Booking Data in order to find out valuable insights and give suggestions to increase revenue of hotels.
 
-Programming Language : Python
+##  Programming Language : Python
 
-Libraries used : Pandas, Numpy, Matplotlib, Seaborn
+##  Libraries used : Pandas, Numpy, Matplotlib, Seaborn
 
-NoteBook : Jupyter Notebook
+##  NoteBook : Jupyter Notebook
 
-Dataset Source : Kaggle.
+##  Dataset Source : Kaggle.
 
-Objective
+# Objective
 We are provided with a hotel bookings dataset.
 
 The main purpose of this study is to perform EDA on the given dataset and draw useful conclusions about the trends in hotel bookings and how factors that control hotel bookings influence each other.
@@ -52,7 +52,7 @@ We are given a hotel bookings dataset. This dataset contains booking information
 Total number of rows in data: 119390
 Total number of columns: 32
 
-Data Cleaning 
+# Data Cleaning 
 
 (1) Handling null values
 column containing high null value was deleted.
@@ -66,7 +66,7 @@ Changed data type of children, company, agent to int type.
 (4) Removing outliers
 One outlier was found in the average_daily_rate column. Dropping them.
 
-Exploratory Data Analysis
+# Exploratory Data Analysis
 
 Performed EDA and tried answering the following questions:
 
@@ -96,7 +96,7 @@ Line Plot.
 
 Box Plot
 
-Analysis:
+# Analysis:
 
 Performed analysis and made following conclusions:
 
@@ -116,7 +116,7 @@ Performed analysis and made following conclusions:
  
  8.) Moslty bookings are done by couples(bookings have two adults.)
  
-Conclusion
+# Conclusion
 
 (1) 61% bookings are for City hotel and 39% bookings are for Resort hotel, therefore City Hotel is busier than Resort hotel. Also the overall average daily rate of City hotel is slightly higher than Resort hotel.
 
@@ -129,7 +129,7 @@ Conclusion
 (5) November, December, January and February are the months which has least bookings so in this periods you can get rooms with less average daily rate.
 And many more conclusion
 
-Challenges
+# Challenges
 
 (1) Lot of null values were present in the dataset.
 
